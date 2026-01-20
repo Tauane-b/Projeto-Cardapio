@@ -86,15 +86,3 @@ Define as fontes customizadas Young Serif utilizadas no projeto.
 
 [Seu Nome/Empresa]
 
-## 📄 Licença
-
-Este projeto utiliza a fonte Young Serif sob licença OFL (Open Font License).
-Veja a pasta `src/fontes/` para mais detalhes sobre a licença.
-
-## 📞 Suporte
-
-Para dúvidas ou sugestões sobre este projeto, entre em contato.
-
----
-
-**Última atualização:** 20 de janeiro de 2026
