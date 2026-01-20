@@ -1,0 +1,135 @@
+body {
+  font-family: 'joti-one', sans-serif;
+  font-weight: 400;
+  background-color: #f3e6dc;
+  color: #333;
+  line-height: 1.6;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  padding: 80px 16px;
+}
+
+/* ===== Card principal ===== */
+.recipe-card {
+  background-color: #ffffff;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden; /* IMPORTANTE para a imagem */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Imagem ===== */
+.recipe-header img {
+  width: 100%;
+  display: block;
+}
+
+/* ===== Conteúdo ===== */
+.recipe-intro {
+  padding: 24px;
+}
+
+.recipe-intro h1 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #2b2b2b;
+  font-weight: 700; }
+
+.recipe-intro p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* ===== Preparation time ===== */
+.prep-time {
+  background-color: #fff0f6;
+  margin: 0 24px 24px;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.prep-time h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #7b284f;
+}
+
+.prep-time ul {
+  padding-left: 20px;
+}
+
+.prep-time li {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+/* ===== Sections padrão ===== */
+.ingredients,
+.instructions,
+.nutrition {
+  padding: 0 24px 24px;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: #7b3f00;
+  font-weight: 600;
+}
+
+/* ===== Listas ===== */
+.ingredients ul {
+  padding-left: 20px;
+}
+
+.ingredients li,
+.instructions li {
+  margin-bottom: 10px;
+}
+
+/* ===== Instructions ===== */
+.instructions ol {
+  padding-left: 20px;
+}
+
+/* ===== Nutrition ===== */
+.nutrition p {
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.nutrition td {
+  padding: 12px 0;
+}
+
+.nutrition td:last-child {
+  text-align: right;
+  font-weight: bold;
+  color: #7b3f00;
+}
+
+/* ===== Desktop (opcional) ===== */
+@media (min-width: 768px) {
+  .recipe-intro h1 {
+    font-size: 32px;
+  }
+
+  .recipe-card {
+    border-radius: 20px;
+  }
+}
